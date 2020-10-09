@@ -14,7 +14,7 @@ pipeline {
                 label 'slave-1'
             }
             steps {
-                sh 'sudo mkdir /root/demo3'
+                sh 'sudo mkdir /root/demo4'
                 sh 'hostname -i'
                 sh 'sudo rm -rf /root/demo'
                 sh 'sudo rm -rf /root/demo1'
