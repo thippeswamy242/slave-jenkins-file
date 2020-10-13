@@ -15,7 +15,6 @@ pipeline {
             }
             steps {
                 sh 'sudo mkdir /root/swamy-2'
-                sh 'sudo cat hellofrom jenkins >> /root/demo.txt'
                 sh 'hostname -i'
                 sh 'sudo rm -rf /root/demo4'
                 sh 'sudo rm -rf /root/demo1'
