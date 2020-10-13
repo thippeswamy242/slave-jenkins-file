@@ -14,7 +14,7 @@ pipeline {
                 label 'slave-1'
             }
             steps {
-                sh 'sudo mkdir /root/swamy'
+                sh 'sudo mkdir /root/swamy-1'
                 sh 'hostname -i'
                 sh 'sudo rm -rf /root/demo4'
                 sh 'sudo rm -rf /root/demo1'
@@ -27,7 +27,7 @@ pipeline {
                 label 'slave-2'
             }
             steps {
-                sh 'sudo mkdir /root/swamy'
+                sh 'sudo mkdir /root/swamy-1'
                 sh 'hostname -i'
             
             }
