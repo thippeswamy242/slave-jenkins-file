@@ -16,7 +16,6 @@ pipeline {
             steps {
                 sh 'sudo rm -rf  /opt/*' 
                 sh 'sudo mkdir /opt/swamy'
-                sh 'hostname -i'
             }
         }
         
